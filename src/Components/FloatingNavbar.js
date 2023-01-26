@@ -32,10 +32,12 @@ function FloatNav() {
         unmountOnExit
       >
         <div
-          className={`fixed duration-1000  ${isVisible ? "block" : "hidden"}`}
+          className={` flex justify-center  ${
+            isVisible ? "block" : "hidden"
+          } cursor-pointer`}
         >
-          <div className="flex justify-center mt-10 items-center ml-40 fixed">
-            <div className=" text-sm py-6 px-16  space-x-40 shadow-sm bg-white shadow-gray-400 rounded-lg    items-center font-nunito flex justify-evenly ">
+          <div className=" mt-12 fixed ">
+            <div className=" text-sm py-6 px-12 mx-auto space-x-80 shadow-sm bg-white shadow-gray-400 rounded-lg    items-center font-nunito flex justify-evenly ">
               <div className="flex  justify-center items-center space-x-6 opacity">
                 <div className="link">SHOP</div>
                 <div className="link">DISCOVER</div>

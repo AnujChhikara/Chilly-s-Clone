@@ -7,7 +7,7 @@ import "aos/dist/aos.css"; // You can also use <link> for styles
 AOS.init();
 function Home() {
   return (
-    <div className="w-screen h-max ">
+    <div className="w-[100vw]">
       <div>
         <FloatNav />
       </div>
