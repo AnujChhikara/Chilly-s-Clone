@@ -72,7 +72,7 @@ function Body() {
           <img
             className="w-36"
             src="https://www.datocms-assets.com/11645/1644498845-s2coffee_libertyblush.png?q=80&auto=format&dpr=1&w=320&fit=crop"
-            alt=""
+            alt="poster"
           />
           <h3 className="text-lg">COFFEE CUPS</h3>
           <p className="text-sm text-gray-500">from $30</p>
