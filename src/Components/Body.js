@@ -1,5 +1,4 @@
 import Reviews from "./MainBody/Reviews";
-import Carousel from "./MainBody/Carousel";
 function Body() {
   return (
     <div>
@@ -165,8 +164,7 @@ function Body() {
       </div>
       {/* Reviews */}
       <Reviews />
-      {/* Carousal */}
-      <Carousel />
+     
     </div>
   );
 }
