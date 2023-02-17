@@ -162,8 +162,7 @@ function Body() {
           </div>
         </div>
       </div>
-      {/* Reviews */}
-      <Reviews />
+      
      
     </div>
   );
